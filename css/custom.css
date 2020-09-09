@@ -1,0 +1,17 @@
+/* Add here all your CSS customizations */
+
+.fullcoveredvideo video {
+    object-fit: none !important;
+}
+
+html .text-color-dark, html .text-dark {
+    color: #212529 !important;
+}
+
+.home-intro .learn-more {
+    margin-right: 15px;
+}
+
+.bg-primary {
+    background-color: #AA8D59!important;
+}
