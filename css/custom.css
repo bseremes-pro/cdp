@@ -1,5 +1,21 @@
 /* Add here all your CSS customizations */
 
+@font-face {
+    font-family: 'distant_strokemedium';
+    src: url('fonts/distant_stroke_medium-webfont.woff2') format('woff2'), url('fonts/distant_stroke_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title-cdp {
+    font-family: 'distant_strokemedium' !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+    letter-spacing: 0 !important;
+    font-size: 75px !important;
+    line-height: normal;
+}
+
 .fullcoveredvideo video {
     object-fit: none !important;
 }
