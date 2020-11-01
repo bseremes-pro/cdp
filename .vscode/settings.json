@@ -1,0 +1,23 @@
+{
+    "git.ignoreLimitWarning": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#157657",
+        "activityBar.activeBorder": "#50136c",
+        "activityBar.background": "#157657",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#50136c",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "statusBar.background": "#0d4b37",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#157657",
+        "titleBar.activeBackground": "#0d4b37",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#0d4b3799",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#0D4B37"
+}
