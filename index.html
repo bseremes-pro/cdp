@@ -74,125 +74,151 @@
   </head>
   <body>
     <div class="body">
+      <!-- MENU -->
       <header
         id="header"
-        class="header-effect-shrink"
-        data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 120, 'stickyHeaderContainerHeight': 90}"
+        class="header-transparent header-effect-shrink"
+        data-plugin-options="{'stickyEnabled': false, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': true, 'stickyStartAt': 120, 'stickyHeaderContainerHeight': 70}"
       >
-        <div class="header-body border-top-0 box-shadow-none">
-          <div class="header-container container container-lg">
+        <div class="header-body border-top-0">
+          <div class="header-container header-container-height-lg container">
             <div class="header-row">
-              <div class="header-column">
-                <div class="header-row">
+              <div class="header-column justify-content-start d-lg-none">
+                <div class="header-row mt-2">
                   <div class="header-logo">
-                    <a href="demo-it-services.html">
+                    <a href="index.html">
                       <img
-                        alt="Porto"
-                        width="162"
-                        height="42"
-                        src="img/demos/it-services/logo.png"
+                        alt="CDP"
+                        width="96"
+                        data-sticky-height="40"
+                        data-sticky-top="0"
+                        src="img/logo-normal-cadre-transparent-texte-cdp.png"
                       />
                     </a>
                   </div>
                 </div>
               </div>
-              <div class="header-column justify-content-end">
-                <div class="header-row">
-                  <div
-                    class="header-nav header-nav-line header-nav-bottom-line header-nav-bottom-line-effect-1 order-2 order-lg-1"
-                  >
+              <div class="header-column justify-content-center align-items-end">
+                <div class="header-nav justify-content-lg-center p-0">
+                  <div class="header-nav header-nav-links">
                     <div
-                      class="header-nav-main header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1"
+                      class="header-nav-main header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-dropdown-arrow header-nav-main-dropdown-center header-nav-main-dropdown-center-bottom header-nav-main-effect-3 header-nav-main-sub-effect-1"
                     >
                       <nav class="collapse">
-                        <ul class="nav nav-pills" id="mainNav">
-                          <li>
-                            <a
-                              class="nav-link active"
-                              href="demo-it-services.html"
-                            >
-                              Home
+                        <ul
+                          class="nav nav-pills flex-column flex-lg-row"
+                          id="mainNav"
+                        >
+                          <li class="order-2">
+                            <a class="dropdown-item" href="elements.html">
+                              Accueil
                             </a>
                           </li>
-                          <li>
-                            <a
-                              class="nav-link"
-                              href="demo-it-services-about-us.html"
-                            >
-                              About Us
+                          <li class="order-3">
+                            <a class="dropdown-item" href="elements.html">
+                              Qui sommes-nous ?
                             </a>
                           </li>
-                          <li class="dropdown">
-                            <a
-                              class="dropdown-item dropdown-toggle"
-                              href="demo-it-services-services.html"
-                            >
-                              IT Services
-                            </a>
-                            <ul class="dropdown-menu">
-                              <li>
-                                <a
-                                  class="nav-link"
-                                  href="demo-it-services-services.html"
-                                  >Overview</a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  class="nav-link"
-                                  href="demo-it-services-services-detail.html"
-                                  >Cloud Services</a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  class="nav-link"
-                                  href="demo-it-services-services-detail.html"
-                                  >Tech Support</a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  class="nav-link"
-                                  href="demo-it-services-services-detail.html"
-                                  >Data Security</a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  class="nav-link"
-                                  href="demo-it-services-services-detail.html"
-                                  >Software Dev</a
-                                >
-                              </li>
-                            </ul>
-                          </li>
-                          <li>
-                            <a
-                              class="nav-link"
-                              href="demo-it-services-blog.html"
-                            >
-                              Resources
+                          <li class="order-4">
+                            <a class="dropdown-item" href="elements.html">
+                              Prestations
                             </a>
                           </li>
-                          <li>
-                            <a
-                              class="nav-link"
-                              href="demo-it-services-careers.html"
-                            >
-                              Careers
+                          <!-- <li class="order-6">
+                          <a class="dropdown-item" href="elements.html">
+                            Micropigmentation
+                          </a>
+                        </li>
+                        <li class="order-7">
+                          <a class="dropdown-item" href="elements.html">
+                            Détatouage
+                          </a>
+                        </li> -->
+                          <li class="order-6">
+                            <a class="dropdown-item" href="elements.html">
+                              Prendre un rendez-vous
                             </a>
                           </li>
-                          <li>
-                            <a
-                              class="nav-link"
-                              href="demo-it-services-contact.html"
-                            >
-                              Contact
+                          <li class="order-8">
+                            <a class="dropdown-item" href="elements.html">
+                              FAQ
                             </a>
+                          </li>
+                          <li
+                            class="align-items-center d-none d-lg-flex order-5 px-5 mx-2"
+                          >
+                            <span class="header-logo">
+                              <a href="index.html" class="w-100 text-center">
+                                <img
+                                  alt="Porto"
+                                  width="96"
+                                  data-sticky-height="40"
+                                  data-sticky-top="72"
+                                  src="img/cdp-menu-logo.png"
+                                />
+                              </a>
+                            </span>
                           </li>
                         </ul>
                       </nav>
+                    </div>
+                    <div class="header-nav-features pl-2 ml-0 mr-3">
+                      <div
+                        class="header-nav-feature header-nav-features-cart d-inline-flex ml-2"
+                      >
+                        <a href="#" class="header-nav-features-toggle">
+                          <img
+                            src="img/icons/icon-cart.svg"
+                            width="14"
+                            alt=""
+                            class="header-nav-top-icon-img"
+                          />
+                          <span class="cart-info d-none">
+                            <span class="cart-qty">1</span>
+                          </span>
+                        </a>
+                        <div
+                          class="header-nav-features-dropdown header-nav-features-dropdown-mobile-fixed"
+                          id="headerTopCartDropdown"
+                        >
+                          <ol class="mini-products-list">
+                            <li class="item">
+                              <a
+                                href="#"
+                                title="Camera X1000"
+                                class="product-image"
+                                ><img
+                                  src="img/products/product-1.jpg"
+                                  alt="Camera X1000"
+                              /></a>
+                              <div class="product-details">
+                                <p class="product-name">
+                                  <a href="#">Camera X1000 </a>
+                                </p>
+                                <p class="qty-price">
+                                  1X <span class="price">$890</span>
+                                </p>
+                                <a
+                                  href="#"
+                                  title="Remove This Item"
+                                  class="btn-remove"
+                                  ><i class="fas fa-times"></i
+                                ></a>
+                              </div>
+                            </li>
+                          </ol>
+                          <div class="totals">
+                            <span class="label">Total:</span>
+                            <span class="price-total"
+                              ><span class="price">$890</span></span
+                            >
+                          </div>
+                          <div class="actions">
+                            <a class="btn btn-dark" href="#">View Cart</a>
+                            <a class="btn btn-primary" href="#">Checkout</a>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                     <button
                       class="btn header-btn-collapse-nav"
@@ -202,50 +228,735 @@
                       <i class="fas fa-bars"></i>
                     </button>
                   </div>
-                  <div class="d-none d-sm-inline-flex order-1 order-lg-2 ml-2">
-                    <ul class="header-extra-info d-flex">
-                      <li class="d-none d-xl-flex flex-column">
-                        <span
-                          class="d-block font-weight-semibold text-color-dark text-2 line-height-3"
-                          >SUPPORT</span
-                        >
-                        <a
-                          href="tel:+1234567890"
-                          class="font-weight-bold text-color-primary text-5"
-                          >800-123-4567</a
-                        >
-                      </li>
-                      <li class="d-flex flex-column">
-                        <span
-                          class="d-block font-weight-semibold text-color-dark text-2 line-height-3"
-                          >SALES</span
-                        >
-                        <a
-                          href="tel:+1234567890"
-                          class="font-weight-bold text-color-primary text-5"
-                          >800-123-4567</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
                 </div>
               </div>
+              <div
+                class="header-column justify-content-end d-none d-lg-flex"
+              ></div>
             </div>
           </div>
         </div>
       </header>
+      <!-- Fin MENU -->
 
       <div role="main" class="main">
-        <!-- VIDEO FULLSCREEN + SLOGAN -->
+        <!-- HERO -->
+        <!-- <div class="slider-container rev_slider_wrapper" style="height: 670px">
+          <div
+            id="revolutionSlider"
+            class="slider rev_slider"
+            data-version="5.4.8"
+            data-plugin-revolution-slider
+            data-plugin-options="{'delay': 9000, 'gridwidth': 1170, 'gridheight': 670, 'disableProgressBar': 'on', 'responsiveLevels': [4096,1200,992,500], 'parallax': { 'type': 'scroll', 'origo': 'enterpoint', 'speed': 1000, 'levels': [2,3,4,5,6,7,8,9,12,50], 'disable_onmobile': 'on' }, 'navigation' : {'arrows': { 'enable': true }, 'bullets': {'enable': true, 'style': 'bullets-style-1', 'h_align': 'center', 'v_align': 'bottom', 'space': 7, 'v_offset': 70, 'h_offset': 0}}}"
+          >
+            <ul>
+              <li data-transition="fade">
+                <img
+                  src="img/slides/slide-bg.jpg"
+                  alt=""
+                  data-bgposition="center center"
+                  data-bgfit="cover"
+                  data-bgrepeat="no-repeat"
+                  class="rev-slidebg"
+                />
+
+                <div
+                  class="tp-caption tp-resizeme"
+                  data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"opacity:0;x:100%;y:-100%;","to":"o:1;x:0;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-type="image"
+                  data-x="right"
+                  data-y="top"
+                  data-width="['auto']"
+                  data-height="['auto']"
+                  data-basealign="slide"
+                >
+                  <img src="img/slides/slide-devices.jpg" alt="" />
+                </div>
+
+                <div
+                  class="tp-caption tp-resizeme"
+                  data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"opacity:0;x:-100%;y:-100%;","to":"o:1;x:0;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-type="image"
+                  data-x="left"
+                  data-y="center"
+                  data-width="['auto']"
+                  data-height="['auto']"
+                  data-basealign="slide"
+                >
+                  <img src="img/slides/slide-laptop.jpg" alt="" />
+                </div>
+
+                <div
+                  class="tp-caption tp-resizeme rs-parallaxlevel-7"
+                  data-frames='[{"delay":2500,"speed":1500,"frame":"0","from":"opacity:0;x:-50%;y:-50%;","to":"opacity:1;x:0;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-type="image"
+                  data-x="-500"
+                  data-y="-700"
+                  data-width="['auto']"
+                  data-height="['auto']"
+                  data-basealign="slide"
+                >
+                  <img
+                    src="img/slides/slide-parallax-porto-symbol.png"
+                    alt=""
+                  />
+                </div>
+
+                <div
+                  class="tp-caption"
+                  data-x="center"
+                  data-hoffset="['-150','-150','-150','-240']"
+                  data-y="center"
+                  data-voffset="['-50','-50','-50','-75']"
+                  data-start="1000"
+                  data-transform_in="x:[-300%];opacity:0;s:500;"
+                  data-transform_idle="opacity:0.2;s:500;"
+                >
+                  <img src="img/slides/slide-title-border.png" alt="" />
+                </div>
+
+                <div
+                  class="tp-caption text-color-light font-weight-normal"
+                  data-x="center"
+                  data-y="center"
+                  data-voffset="['-50','-50','-50','-75']"
+                  data-start="700"
+                  data-fontsize="['22','22','22','40']"
+                  data-lineheight="['25','25','25','45']"
+                  data-transform_in="y:[-50%];opacity:0;s:500;"
+                >
+                  DO YOU NEED A NEW
+                </div>
+
+                <div
+                  class="tp-caption d-none d-md-block"
+                  data-frames='[{"delay":2400,"speed":500,"frame":"0","from":"opacity:0;x:10%;","to":"opacity:1;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-x="center"
+                  data-hoffset="['80','80','80','135']"
+                  data-y="center"
+                  data-voffset="['-33','-33','-33','-55']"
+                >
+                  <img src="img/slides/slide-blue-line.png" alt="" />
+                </div>
+
+                <div
+                  class="tp-caption"
+                  data-x="center"
+                  data-hoffset="['150','150','150','240']"
+                  data-y="center"
+                  data-voffset="['-50','-50','-50','-75']"
+                  data-start="1000"
+                  data-transform_in="x:[300%];opacity:0;s:500;"
+                  data-transform_idle="opacity:0.2;s:500;"
+                >
+                  <img src="img/slides/slide-title-border.png" alt="" />
+                </div>
+
+                <div
+                  class="tp-caption font-weight-extra-bold text-color-light negative-ls-2"
+                  data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-x="center"
+                  data-y="center"
+                  data-fontsize="['50','50','50','90']"
+                  data-lineheight="['55','55','55','95']"
+                >
+                  WEB DESIGN?
+                </div>
+
+                <div
+                  class="tp-caption font-weight-light"
+                  data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2000,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+                  data-x="center"
+                  data-y="center"
+                  data-voffset="['40','40','40','80']"
+                  data-fontsize="['18','18','18','50']"
+                  data-lineheight="['20','20','20','55']"
+                  style="color: #b5b5b5"
+                >
+                  Check out our options and features
+                </div>
+              </li>
+              <li class="slide-overlay" data-transition="fade">
+                <img
+                  src="img/slides/slide-bg-2.jpg"
+                  alt=""
+                  data-bgposition="center center"
+                  data-bgfit="cover"
+                  data-bgrepeat="no-repeat"
+                  class="rev-slidebg"
+                />
+
+                <div
+                  class="tp-caption"
+                  data-x="center"
+                  data-hoffset="['-170','-170','-170','-350']"
+                  data-y="center"
+                  data-voffset="['-50','-50','-50','-75']"
+                  data-start="1000"
+                  data-transform_in="x:[-300%];opacity:0;s:500;"
+                  data-transform_idle="opacity:0.2;s:500;"
+                >
+                  <img src="img/slides/slide-title-border.png" alt="" />
+                </div>
+
+                <div
+                  class="tp-caption text-color-light font-weight-normal"
+                  data-x="center"
+                  data-y="center"
+                  data-voffset="['-50','-50','-50','-75']"
+                  data-start="700"
+                  data-fontsize="['16','16','16','40']"
+                  data-lineheight="['25','25','25','45']"
+                  data-transform_in="y:[-50%];opacity:0;s:500;"
+                >
+                  WE WORK HARD AND PORTO HAS
+                </div>
+
+                <div
+                  class="tp-caption"
+                  data-x="center"
+                  data-hoffset="['170','170','170','350']"
+                  data-y="center"
+                  data-voffset="['-50','-50','-50','-75']"
+                  data-start="1000"
+                  data-transform_in="x:[300%];opacity:0;s:500;"
+                  data-transform_idle="opacity:0.2;s:500;"
+                >
+                  <img src="img/slides/slide-title-border.png" alt="" />
+                </div>
+
+                <div
+                  class="tp-caption font-weight-extra-bold text-color-light negative-ls-1"
+                  data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-x="center"
+                  data-y="center"
+                  data-fontsize="['50','50','50','90']"
+                  data-lineheight="['55','55','55','95']"
+                >
+                  THE BEST DESIGN
+                </div>
+
+                <div
+                  class="tp-caption font-weight-light ws-normal text-center"
+                  data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2000,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+                  data-x="center"
+                  data-y="center"
+                  data-voffset="['60','60','60','105']"
+                  data-width="['530','530','530','1100']"
+                  data-fontsize="['18','18','18','40']"
+                  data-lineheight="['26','26','26','45']"
+                  style="color: #b5b5b5"
+                >
+                  Trusted by over
+                  <strong class="text-color-light">30,000</strong> satisfied
+                  users, Porto is a huge success in the one of largest world's
+                  MarketPlace.
+                </div>
+              </li>
+              <li
+                class="slide-overlay slide-overlay-primary"
+                data-transition="fade"
+              >
+                <img
+                  src="img/slides/slide-bg-6.jpg"
+                  alt=""
+                  data-bgposition="center center"
+                  data-bgfit="cover"
+                  data-bgrepeat="no-repeat"
+                  class="rev-slidebg"
+                />
+
+                <div
+                  class="tp-caption"
+                  data-x="center"
+                  data-hoffset="['-145','-145','-145','-320']"
+                  data-y="center"
+                  data-voffset="['-80','-80','-80','-130']"
+                  data-start="1000"
+                  data-transform_in="x:[-300%];opacity:0;s:500;"
+                  data-transform_idle="opacity:0.2;s:500;"
+                >
+                  <img src="img/slides/slide-title-border.png" alt="" />
+                </div>
+
+                <div
+                  class="tp-caption text-color-light font-weight-normal"
+                  data-x="center"
+                  data-y="center"
+                  data-voffset="['-80','-80','-80','-130']"
+                  data-start="700"
+                  data-fontsize="['16','16','16','40']"
+                  data-lineheight="['25','25','25','45']"
+                  data-transform_in="y:[-50%];opacity:0;s:500;"
+                >
+                  WE CREATE DESIGNS, WE ARE
+                </div>
+
+                <div
+                  class="tp-caption"
+                  data-x="center"
+                  data-hoffset="['145','145','145','320']"
+                  data-y="center"
+                  data-voffset="['-80','-80','-80','-130']"
+                  data-start="1000"
+                  data-transform_in="x:[300%];opacity:0;s:500;"
+                  data-transform_idle="opacity:0.2;s:500;"
+                >
+                  <img src="img/slides/slide-title-border.png" alt="" />
+                </div>
+
+                <div
+                  class="tp-caption font-weight-extra-bold text-color-light"
+                  data-frames='[{"delay":1300,"speed":1000,"frame":"0","from":"opacity:0;x:-50%;","to":"opacity:0.7;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-x="center"
+                  data-hoffset="['-155','-155','-155','-255']"
+                  data-y="center"
+                  data-fontsize="['145','145','145','250']"
+                  data-lineheight="['150','150','150','260']"
+                >
+                  P
+                </div>
+
+                <div
+                  class="tp-caption font-weight-extra-bold text-color-light"
+                  data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"opacity:0;x:-50%;","to":"opacity:0.7;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-x="center"
+                  data-hoffset="['-80','-80','-80','-130']"
+                  data-y="center"
+                  data-fontsize="['145','145','145','250']"
+                  data-lineheight="['150','150','150','260']"
+                >
+                  O
+                </div>
+
+                <div
+                  class="tp-caption font-weight-extra-bold text-color-light"
+                  data-frames='[{"delay":1700,"speed":1000,"frame":"0","from":"opacity:0;x:-50%;","to":"opacity:0.7;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-x="center"
+                  data-y="center"
+                  data-fontsize="['145','145','145','250']"
+                  data-lineheight="['150','150','150','260']"
+                >
+                  R
+                </div>
+
+                <div
+                  class="tp-caption font-weight-extra-bold text-color-light"
+                  data-frames='[{"delay":1900,"speed":1000,"frame":"0","from":"opacity:0;x:-50%;","to":"opacity:0.7;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-x="center"
+                  data-hoffset="['65','65','65','115']"
+                  data-y="center"
+                  data-fontsize="['145','145','145','250']"
+                  data-lineheight="['150','150','150','260']"
+                >
+                  T
+                </div>
+
+                <div
+                  class="tp-caption font-weight-extra-bold text-color-light"
+                  data-frames='[{"delay":2100,"speed":1000,"frame":"0","from":"opacity:0;x:-50%;","to":"opacity:0.7;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-x="center"
+                  data-hoffset="['139','139','139','240']"
+                  data-y="center"
+                  data-fontsize="['145','145','145','250']"
+                  data-lineheight="['150','150','150','260']"
+                >
+                  O
+                </div>
+
+                <div
+                  class="tp-caption font-weight-light text-color-light"
+                  data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2300,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+                  data-x="center"
+                  data-y="center"
+                  data-voffset="['85','85','85','140']"
+                  data-fontsize="['18','18','18','40']"
+                  data-lineheight="['26','26','26','45']"
+                >
+                  The best choice for your new website
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div> -->
+
         <div class="slider-container rev_slider_wrapper" style="height: 100vh">
           <div
             id="revolutionSlider"
             class="slider rev_slider"
             data-version="5.4.8"
             data-plugin-revolution-slider
-            data-plugin-options="{'sliderLayout': 'fullscreen', 'delay': 9000, 'gridwidth': 1170, 'gridheight': 1000, 'disableProgressBar': 'on', 'responsiveLevels': [4096,1200,992,500], 'parallax': { 'type': 'scroll', 'origo': 'enterpoint', 'speed': 1000, 'levels': [2,3,4,5,6,7,8,9,12,50], 'disable_onmobile': 'on' }}"
+            data-plugin-options="{'sliderLayout': 'fullscreen', 'delay': 9000, 'gridwidth': 1140, 'gridheight': 800, 'responsiveLevels': [4096,1200,992,500]}"
           >
             <ul>
+              <li class="slide-overlay" data-transition="fade">
+                <img
+                  src="img/slides/slide-one-page-1-1.jpg"
+                  alt=""
+                  data-bgposition="center center"
+                  data-bgfit="cover"
+                  data-bgrepeat="no-repeat"
+                  class="rev-slidebg"
+                />
+
+                <div
+                  class="tp-caption tp-resizeme"
+                  data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"opacity:0;x:-100%;y:-100%;","to":"o:1;x:0;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-type="image"
+                  data-x="left"
+                  data-hoffset="['0','-150','-200','-200']"
+                  data-y="top"
+                  data-voffset="['-100','-150','-200','-200']"
+                  data-width="['auto']"
+                  data-height="['auto']"
+                  data-basealign="slide"
+                >
+                  <img src="img/slides/slide-one-page-1-2.jpg" alt="" />
+                </div>
+
+                <div
+                  class="tp-caption tp-resizeme"
+                  data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"opacity:0;x:100%;y:-100%;","to":"o:1;x:0;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-type="image"
+                  data-x="right"
+                  data-hoffset="['0','-150','-200','-200']"
+                  data-y="top"
+                  data-voffset="['-100','-150','-200','-200']"
+                  data-width="['auto']"
+                  data-height="['auto']"
+                  data-basealign="slide"
+                >
+                  <img src="img/slides/slide-one-page-1-3.jpg" alt="" />
+                </div>
+
+                <div
+                  class="tp-caption tp-resizeme"
+                  data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"opacity:0;x:-100%;y:100%;","to":"o:1;x:0;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-type="image"
+                  data-x="left"
+                  data-hoffset="['0','-150','-200','-200']"
+                  data-y="bottom"
+                  data-voffset="['-100','-150','-200','-200']"
+                  data-width="['auto']"
+                  data-height="['auto']"
+                  data-basealign="slide"
+                >
+                  <img src="img/slides/slide-one-page-1-4.jpg" alt="" />
+                </div>
+
+                <div
+                  class="tp-caption tp-resizeme"
+                  data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"opacity:0;x:100%;y:100%;","to":"o:1;x:0;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-type="image"
+                  data-x="right"
+                  data-hoffset="['0','-150','-200','-200']"
+                  data-y="bottom"
+                  data-voffset="['-100','-150','-200','-200']"
+                  data-width="['auto']"
+                  data-height="['auto']"
+                  data-basealign="slide"
+                >
+                  <img src="img/slides/slide-one-page-1-5.jpg" alt="" />
+                </div>
+
+                <div
+                  class="tp-caption"
+                  data-x="center"
+                  data-hoffset="['-170','-170','-170','-365']"
+                  data-y="center"
+                  data-voffset="['-80','-80','-80','-105']"
+                  data-start="1000"
+                  data-transform_in="x:[-300%];opacity:0;s:500;"
+                  data-transform_idle="opacity:0.2;s:500;"
+                >
+                  <img src="img/slides/slide-title-border.png" alt="" />
+                </div>
+
+                <div
+                  class="tp-caption text-color-light font-weight-normal"
+                  data-x="center"
+                  data-y="center"
+                  data-voffset="['-80','-80','-80','-105']"
+                  data-start="700"
+                  data-fontsize="['16','16','16','40']"
+                  data-lineheight="['25','25','25','45']"
+                  data-transform_in="y:[-50%];opacity:0;s:500;"
+                >
+                  WE WORK HARD AND PORTO HAS
+                </div>
+
+                <div
+                  class="tp-caption"
+                  data-x="center"
+                  data-hoffset="['170','170','170','365']"
+                  data-y="center"
+                  data-voffset="['-80','-80','-80','-105']"
+                  data-start="1000"
+                  data-transform_in="x:[300%];opacity:0;s:500;"
+                  data-transform_idle="opacity:0.2;s:500;"
+                >
+                  <img src="img/slides/slide-title-border.png" alt="" />
+                </div>
+
+                <h1
+                  class="tp-caption font-weight-extra-bold text-color-light negative-ls-1"
+                  data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-x="center"
+                  data-y="center"
+                  data-voffset="['-30','-30','-30','-30']"
+                  data-fontsize="['50','50','50','90']"
+                  data-lineheight="['55','55','55','95']"
+                >
+                  THE BEST DESIGN
+                </h1>
+
+                <div
+                  class="tp-caption"
+                  data-frames='[{"delay":2000,"speed":500,"frame":"0","from":"opacity:0;x:10%;","to":"opacity:1;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-x="center"
+                  data-hoffset="['-40','-40','-40','-40']"
+                  data-y="center"
+                  data-voffset="['2','2','2','15']"
+                >
+                  <img src="img/slides/slide-blue-line-big.png" alt="" />
+                </div>
+
+                <div
+                  class="tp-caption font-weight-light ws-normal text-center"
+                  data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2000,"split":"chars","splitdelay":0.03,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+                  data-x="center"
+                  data-y="center"
+                  data-voffset="['53','53','53','105']"
+                  data-width="['530','530','530','1100']"
+                  data-fontsize="['18','18','18','40']"
+                  data-lineheight="['26','26','26','45']"
+                  style="color: #b5b5b5"
+                >
+                  Trusted by over
+                  <strong class="text-color-light">30,000</strong> satisfied
+                  users, Porto is a huge success in the one of largest world's
+                  MarketPlace.
+                </div>
+
+                <a
+                  class="tp-caption btn btn-primary btn-rounded font-weight-semibold"
+                  data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;y:50%;","to":"o:1;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-hash
+                  data-hash-offset="85"
+                  href="#projects"
+                  data-x="center"
+                  data-hoffset="0"
+                  data-y="center"
+                  data-voffset="['133','133','133','255']"
+                  data-whitespace="nowrap"
+                  data-fontsize="['14','14','14','33']"
+                  data-paddingtop="['15','15','15','40']"
+                  data-paddingright="['45','45','45','110']"
+                  data-paddingbottom="['15','15','15','40']"
+                  data-paddingleft="['45','45','45','110']"
+                  >GET STARTED NOW!</a
+                >
+              </li>
+              <li class="slide-overlay" data-transition="fade">
+                <img
+                  src="img/slides/slide-bg-2.jpg"
+                  alt=""
+                  data-bgposition="center center"
+                  data-bgfit="cover"
+                  data-bgrepeat="no-repeat"
+                  class="rev-slidebg"
+                />
+
+                <div
+                  class="tp-caption"
+                  data-x="center"
+                  data-hoffset="['-170','-170','-170','-350']"
+                  data-y="center"
+                  data-voffset="['-50','-50','-50','-75']"
+                  data-start="1000"
+                  data-transform_in="x:[-300%];opacity:0;s:500;"
+                  data-transform_idle="opacity:0.2;s:500;"
+                >
+                  <img src="img/slides/slide-title-border.png" alt="" />
+                </div>
+
+                <div
+                  class="tp-caption text-color-light font-weight-normal"
+                  data-x="center"
+                  data-y="center"
+                  data-voffset="['-50','-50','-50','-75']"
+                  data-start="700"
+                  data-fontsize="['16','16','16','40']"
+                  data-lineheight="['25','25','25','45']"
+                  data-transform_in="y:[-50%];opacity:0;s:500;"
+                >
+                  WE WORK HARD AND PORTO HAS
+                </div>
+
+                <div
+                  class="tp-caption"
+                  data-x="center"
+                  data-hoffset="['170','170','170','350']"
+                  data-y="center"
+                  data-voffset="['-50','-50','-50','-75']"
+                  data-start="1000"
+                  data-transform_in="x:[300%];opacity:0;s:500;"
+                  data-transform_idle="opacity:0.2;s:500;"
+                >
+                  <img src="img/slides/slide-title-border.png" alt="" />
+                </div>
+
+                <div
+                  class="tp-caption font-weight-extra-bold text-color-light negative-ls-1"
+                  data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-x="center"
+                  data-y="center"
+                  data-fontsize="['50','50','50','90']"
+                  data-lineheight="['55','55','55','95']"
+                >
+                  THE BEST DESIGN
+                </div>
+
+                <div
+                  class="tp-caption font-weight-light ws-normal text-center"
+                  data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2000,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+                  data-x="center"
+                  data-y="center"
+                  data-voffset="['60','60','60','105']"
+                  data-width="['530','530','530','1100']"
+                  data-fontsize="['18','18','18','40']"
+                  data-lineheight="['26','26','26','45']"
+                  style="color: #b5b5b5"
+                >
+                  Trusted by over
+                  <strong class="text-color-light">30,000</strong> satisfied
+                  users, Porto is a huge success in the one of largest world's
+                  MarketPlace.
+                </div>
+              </li>
+              <li
+                class="slide-overlay slide-overlay-dark"
+                data-transition="fade"
+              >
+                <img
+                  src="img/slides/slide-bg-6.jpg"
+                  alt=""
+                  data-bgposition="center center"
+                  data-bgfit="cover"
+                  data-bgrepeat="no-repeat"
+                  class="rev-slidebg"
+                />
+
+                <div
+                  class="tp-caption"
+                  data-x="center"
+                  data-hoffset="['-145','-145','-145','-320']"
+                  data-y="center"
+                  data-voffset="['-80','-80','-80','-130']"
+                  data-start="1000"
+                  data-transform_in="x:[-300%];opacity:0;s:500;"
+                  data-transform_idle="opacity:0.2;s:500;"
+                >
+                  <img src="img/slides/slide-title-border.png" alt="" />
+                </div>
+
+                <div
+                  class="tp-caption text-color-light font-weight-normal"
+                  data-x="center"
+                  data-y="center"
+                  data-voffset="['-80','-80','-80','-130']"
+                  data-start="700"
+                  data-fontsize="['16','16','16','40']"
+                  data-lineheight="['25','25','25','45']"
+                  data-transform_in="y:[-50%];opacity:0;s:500;"
+                >
+                  WE CREATE DESIGNS, WE ARE
+                </div>
+
+                <div
+                  class="tp-caption"
+                  data-x="center"
+                  data-hoffset="['145','145','145','320']"
+                  data-y="center"
+                  data-voffset="['-80','-80','-80','-130']"
+                  data-start="1000"
+                  data-transform_in="x:[300%];opacity:0;s:500;"
+                  data-transform_idle="opacity:0.2;s:500;"
+                >
+                  <img src="img/slides/slide-title-border.png" alt="" />
+                </div>
+
+                <div
+                  class="tp-caption font-weight-extra-bold text-color-light"
+                  data-frames='[{"delay":1300,"speed":1000,"frame":"0","from":"opacity:0;x:-50%;","to":"opacity:0.7;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-x="center"
+                  data-hoffset="['-155','-155','-155','-255']"
+                  data-y="center"
+                  data-fontsize="['145','145','145','250']"
+                  data-lineheight="['150','150','150','260']"
+                >
+                  P
+                </div>
+
+                <div
+                  class="tp-caption font-weight-extra-bold text-color-light"
+                  data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"opacity:0;x:-50%;","to":"opacity:0.7;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-x="center"
+                  data-hoffset="['-80','-80','-80','-130']"
+                  data-y="center"
+                  data-fontsize="['145','145','145','250']"
+                  data-lineheight="['150','150','150','260']"
+                >
+                  O
+                </div>
+
+                <div
+                  class="tp-caption font-weight-extra-bold text-color-light"
+                  data-frames='[{"delay":1700,"speed":1000,"frame":"0","from":"opacity:0;x:-50%;","to":"opacity:0.7;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-x="center"
+                  data-y="center"
+                  data-fontsize="['145','145','145','250']"
+                  data-lineheight="['150','150','150','260']"
+                >
+                  R
+                </div>
+
+                <div
+                  class="tp-caption font-weight-extra-bold text-color-light"
+                  data-frames='[{"delay":1900,"speed":1000,"frame":"0","from":"opacity:0;x:-50%;","to":"opacity:0.7;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-x="center"
+                  data-hoffset="['65','65','65','115']"
+                  data-y="center"
+                  data-fontsize="['145','145','145','250']"
+                  data-lineheight="['150','150','150','260']"
+                >
+                  T
+                </div>
+
+                <div
+                  class="tp-caption font-weight-extra-bold text-color-light"
+                  data-frames='[{"delay":2100,"speed":1000,"frame":"0","from":"opacity:0;x:-50%;","to":"opacity:0.7;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-x="center"
+                  data-hoffset="['139','139','139','240']"
+                  data-y="center"
+                  data-fontsize="['145','145','145','250']"
+                  data-lineheight="['150','150','150','260']"
+                >
+                  O
+                </div>
+
+                <div
+                  class="tp-caption font-weight-light text-color-light"
+                  data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2300,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
+                  data-x="center"
+                  data-y="center"
+                  data-voffset="['85','85','85','140']"
+                  data-fontsize="['18','18','18','40']"
+                  data-lineheight="['26','26','26','45']"
+                >
+                  The best choice for your new website
+                </div>
+              </li>
               <li class="slide-overlay" data-transition="fade">
                 <img
                   src="img/blank.gif"
@@ -260,110 +971,88 @@
                   class="rs-background-video-layer"
                   data-forcerewind="on"
                   data-volume="mute"
-                  data-videomp4="video/Cabinetdepigmentation.mp4"
+                  data-videowidth="100%"
+                  data-videoheight="100%"
+                  data-videomp4="video/memory-of-a-woman.mp4"
                   data-videopreload="preload"
                   data-videoloop="loop"
                   data-forceCover="1"
-                  data-aspectratio="4:3"
+                  data-aspectratio="16:9"
                   data-autoplay="true"
                   data-autoplayonlyfirsttime="false"
                   data-nextslideatend="false"
                 ></div>
 
-                <!-- <div
-                          class="tp-caption"
-                          data-x="center"
-                          data-hoffset="['-125','-125','-125','-215']"
-                          data-y="center"
-                          data-voffset="['-50','-50','-50','-75']"
-                          data-start="1000"
-                          data-transform_in="x:[-300%];opacity:0;s:500;"
-                          data-transform_idle="opacity:0.2;s:500;"
-                          style="z-index: 5"
-                        >
-                          <img src="img/slides/slide-title-border.png" alt="" />
-                        </div> -->
-
-                <!-- <div
-                          class="tp-caption text-color-light font-weight-light"
-                          data-x="center"
-                          data-y="center"
-                          data-voffset="['-140','-140','-140','-185']"
-                          data-start="700"
-                          data-fontsize="['22','22','22','40']"
-                          data-lineheight="['25','25','25','45']"
-                          data-transform_in="y:[-50%];opacity:0;s:500;"
-                          style="z-index: 5"
-                        >
-                          CABINET DE PIGMENTATION
-                        </div> -->
-
-                <!-- <div
-                          class="tp-caption d-none d-md-block"
-                          data-frames='[{"delay":2400,"speed":500,"frame":"0","from":"opacity:0;x:10%;","to":"opacity:1;x:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
-                          data-x="center"
-                          data-hoffset="['72','72','72','127']"
-                          data-y="center"
-                          data-voffset="['-33','-33','-33','-55']"
-                          style="z-index: 5"
-                        >
-                          <img src="img/slides/slide-blue-line.png" alt="" />
-                        </div> -->
-
-                <!-- <div
-                          class="tp-caption"
-                          data-x="center"
-                          data-hoffset="['125','125','125','215']"
-                          data-y="center"
-                          data-voffset="['-50','-50','-50','-75']"
-                          data-start="1000"
-                          data-transform_in="x:[300%];opacity:0;s:500;"
-                          data-transform_idle="opacity:0.2;s:500;"
-                          style="z-index: 5"
-                        >
-                          <img src="img/slides/slide-title-border.png" alt="" />
-                        </div> -->
+                <div
+                  class="tp-caption"
+                  data-x="center"
+                  data-hoffset="['-170','-170','-170','-350']"
+                  data-y="center"
+                  data-voffset="['-50','-50','-50','-75']"
+                  data-start="1000"
+                  data-transform_in="x:[-300%];opacity:0;s:500;"
+                  data-transform_idle="opacity:0.2;s:500;"
+                  style="z-index: 5"
+                >
+                  <img src="img/slides/slide-title-border.png" alt="" />
+                </div>
 
                 <div
-                  class="tp-caption font-weight-extra-bold text-color-light negative-ls-2"
+                  class="tp-caption text-color-light font-weight-normal"
+                  data-x="center"
+                  data-y="center"
+                  data-voffset="['-50','-50','-50','-75']"
+                  data-start="700"
+                  data-fontsize="['16','16','16','40']"
+                  data-lineheight="['25','25','25','45']"
+                  data-transform_in="y:[-50%];opacity:0;s:500;"
+                  style="z-index: 5"
+                >
+                  WE WORK HARD AND PORTO HAS
+                </div>
+
+                <div
+                  class="tp-caption"
+                  data-x="center"
+                  data-hoffset="['170','170','170','350']"
+                  data-y="center"
+                  data-voffset="['-50','-50','-50','-75']"
+                  data-start="1000"
+                  data-transform_in="x:[300%];opacity:0;s:500;"
+                  data-transform_idle="opacity:0.2;s:500;"
+                  style="z-index: 5"
+                >
+                  <img src="img/slides/slide-title-border.png" alt="" />
+                </div>
+
+                <div
+                  class="tp-caption font-weight-extra-bold text-color-light negative-ls-1"
                   data-frames='[{"delay":1000,"speed":2000,"frame":"0","from":"sX:1.5;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
                   data-x="center"
                   data-y="center"
-                  data-voffset="['-70','-70','-70','-115']"
                   data-fontsize="['50','50','50','90']"
                   data-lineheight="['55','55','55','95']"
                   style="z-index: 5"
                 >
-                  <img src="img/logo-normal-texte-haut-plat-cdp.png" alt="" />
+                  PERFECT VIDEOS
                 </div>
 
                 <div
-                  class="tp-caption font-weight-normal text-color-light negative-ls-2"
+                  class="tp-caption font-weight-light ws-normal text-center"
                   data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2000,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
                   data-x="center"
                   data-y="center"
-                  data-voffset="['120','120','120','160']"
-                  data-fontsize="['40','40','40','70']"
-                  data-lineheight="['55','55','55','95']"
-                  style="color: #fff; z-index: 5"
+                  data-voffset="['60','60','60','105']"
+                  data-width="['530','530','530','1100']"
+                  data-fontsize="['18','18','18','40']"
+                  data-lineheight="['26','26','26','45']"
+                  style="color: #b5b5b5; z-index: 5"
                 >
-                  Vous sublimer, notre métier
+                  Trusted by over
+                  <strong class="text-color-light">30,000</strong> satisfied
+                  users, Porto is a huge success in the one of largest world's
+                  MarketPlace.
                 </div>
-
-                <a
-                  class="tp-caption slider-scroll-button"
-                  data-hash
-                  data-hash-offset="80"
-                  href="#main"
-                  data-x="center"
-                  data-y="bottom"
-                  data-voffset="['30','30','30','30']"
-                  data-start="1600"
-                  data-transform_in="y:[100%];s:500;"
-                  data-transform_out="y:[100%];opacity:0;s:500;"
-                  data-mask_in="x:0px;y:0px;"
-                  style="z-index: 5"
-                ></a>
 
                 <div class="tp-dottedoverlay tp-opacity-overlay"></div>
               </li>
@@ -371,79 +1060,11 @@
           </div>
         </div>
 
-        <!-- <div class="custom-section-svg">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="1820"
-            height="840"
-            viewBox="0 0 481.54166 222.25"
-            version="1.1"
-            style="
-              background-image: url(img/demos/it-services/backgrounds/bg-full.jpg);
-              background-size: cover;
-              background-position: center;
-            "
-          >
-            <g transform="translate(0,-74.749984)">
-              <path
-                style="
-                  fill: #0053ce;
-                  fill-opacity: 0.83417089;
-                  stroke-width: 0.26458332;
-                "
-                d="M -37.41942,65.027063 V 297.04648 h 555.625 V 65.027063 Z m 385.24418,26.073343 c 5.16568,-0.06559 10.30682,1.828283 14.17588,5.697327 l 22.51077,22.510767 c 2.81369,2.8137 7.10706,1.33438 7.86464,-2.23708 2.21908,-6.43973 5.15977,-13.60111 8.76741,-17.208757 10.10198,-10.101963 25.7768,-10.300582 35.62522,-0.452167 9.84843,9.848414 9.64978,25.523244 -0.45217,35.625204 -3.60765,3.60766 -10.76936,6.54852 -17.20929,8.76743 -3.57201,0.75699 -4.34764,5.75355 -2.23655,7.86463 l 29.54549,29.54549 c 7.73808,7.73808 7.57481,20.56352 -0.36227,28.50058 l -17.31727,17.31729 c -4.32922,4.32922 -12.15765,3.7166 -14.93552,-1.94717 -2.07338,-4.96117 -4.86992,-9.19938 -6.98047,-11.3099 -9.8484,-9.84841 -25.52375,-9.64979 -35.62572,0.45217 -10.10177,10.10177 -10.3006,25.77732 -0.45218,35.62573 2.11053,2.11053 6.34937,4.90595 11.30941,6.98045 4.94276,3.49888 6.27689,10.60629 1.94767,14.93552 l -17.31729,17.31729 c -7.93724,7.93726 -20.76249,8.09984 -28.50057,0.36174 l -84.41553,-84.41552 c -7.7381,-7.7381 -7.57482,-20.56301 0.36225,-28.50007 l 79.37139,-79.371375 v -5.16e-4 c 3.96862,-3.968627 9.15901,-5.993473 14.3247,-6.059063 z"
-              />
-              <path
-                style="
-                  fill: #ffffff;
-                  fill-opacity: 1;
-                  stroke: none;
-                  stroke-width: 0.26052347;
-                  stroke-opacity: 1;
-                "
-                d="m 314.90636,266.1817 0.0512,0.0512 h 71.61114 v 0 c -23.89724,-0.003 -47.7139,0.007 -71.61114,0 z m 71.66229,0.0512 c 0,0 -0.0376,2.36455 -1.54522,4.09644 -5.94783,6.83282 -18.34141,18.62228 -18.34141,18.62228 -7.93727,7.93727 -20.76199,8.23348 -28.50007,0.49537 L 314.95751,266.23286 H -43.089358 v 31.34279 H 521.98518 v -31.34279 z"
-                id="rect857"
-              />
-            </g>
-          </svg>
-          <div class="container container-lg z-index-1">
-            <div class="row">
-              <div class="col-md-7 col-lg-6">
-                <h1
-                  class="text-color-light font-weight-extra-bold text-6 text-lg-10 text-xl-14 line-height-1-1 negative-ls-1 pb-2 mb-2 mb-xl-4 appear-animation"
-                  data-appear-animation="fadeInUpShorter"
-                  data-appear-animation-delay="300"
-                >
-                  ARE YOU LOOKING FOR SUPERIOR TECH IT SUPPORT?
-                </h1>
-                <p
-                  class="custom-font-secondary custom-text-color-light-1 line-height-5 text-xl-5 pr-5 pb-3 mb-2 mb-xl-4 appear-animation"
-                  data-appear-animation="fadeInUpShorter"
-                  data-appear-animation-delay="500"
-                >
-                  We provide
-                  <strong class="text-color-light">affordable</strong>, highly
-                  responsive
-                  <strong class="text-color-light">IT Support</strong> and
-                  Services for small and medium businesses.
-                </p>
-                <a
-                  href="#services"
-                  class="btn btn-secondary btn-outline text-color-light font-weight-semibold border-width-4 custom-link-effect-1 text-1 text-xl-3 d-inline-flex align-items-center px-4 py-3 appear-animation"
-                  data-hash
-                  data-hash-offset="90"
-                  data-appear-animation="fadeInUpShorter"
-                  data-appear-animation-delay="700"
-                  >GET STARTED NOW <i class="custom-arrow-icon ml-2"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div> -->
+        <!-- Fin HERO -->
 
         <!-- SECTION : HORAIRES -->
-        <div class="home-intro bg-primary" id="home-intro">
-          <div class="container">
+        <section class="home-intro bg-primary" id="home-intro">
+          <div class="container container-lg">
             <div class="row align-items-center">
               <div class="col-lg-8">
                 <p>
@@ -472,7 +1093,8 @@
               </div>
             </div>
           </div>
-        </div>
+        </section>
+        <!-- Fin SECTION : HORAIRES -->
 
         <section
           class="section section-height-4 custom-section-full-width custom-section-pull-top-1 bg-color-transparent border-0 position-relative z-index-1 pb-0 pb-xl-5 mb-0"
@@ -535,13 +1157,14 @@
                       <h4
                         class="custom-heading-bar font-weight-bold text-color-dark text-5"
                       >
-                        ESTHÉTIQUE
+                        MICROPIGMENTATION
                       </h4>
                       <p class="custom-font-secondary text-4 mb-3">
-                        Lorem ipsum dolor sit
-                        <strong class="text-color-dark">amet</strong>,
-                        consectetur adipiscing elit. Nunc viverra erat orci, ac
-                        auctor.
+                        Connu sous plusieurs appellations telles que
+                        <em>maquillage semi-permanent</em>,
+                        <em>micropigmentation</em> ou
+                        <em>dermopigmentation</em>, elle vous offre des
+                        <strong>résultats naturels et subtils</strong>.
                       </p>
                     </div>
                   </div>
@@ -560,7 +1183,7 @@
                         <h4
                           class="custom-heading-bar custom-heading-bar-right font-weight-bold text-color-dark text-right text-5"
                         >
-                          RÉPARATRICE
+                          DÉTATOUAGE
                         </h4>
                         <p
                           class="text-right custom-font-secondary text-4 pl-4 ml-3 mb-3"
@@ -1948,6 +2571,8 @@
     <!-- Current Page Vendor and Views -->
     <script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
     <script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="vendor/circle-flip-slideshow/js/jquery.flipshow.min.js"></script>
+    <script src="js/views/view.home.js"></script>
 
     <!-- Demo -->
     <script src="js/demos/demo-it-services.js"></script>
