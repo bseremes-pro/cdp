@@ -36,3 +36,7 @@ html .text-dark {
 .bg-primary {
   background-color: #aa8d59 !important;
 }
+
+.rev_slider li.slide-overlay .slotholder:after {
+  opacity: 0.4;
+}
