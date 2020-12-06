@@ -40,3 +40,9 @@ html .text-dark {
 .rev_slider li.slide-overlay .slotholder:after {
   opacity: 0.4;
 }
+
+#header .header-nav-main nav > ul > li.active > a,
+#header .header-nav-main nav > ul > li:hover > a,
+#header .header-nav-main nav > ul > li:focus > a {
+  color: #fff !important;
+}
